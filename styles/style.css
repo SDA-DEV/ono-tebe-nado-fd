@@ -139,7 +139,7 @@
 }
 
 .bet-button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   padding: 12px 32px;
   color: #fff;
   font-weight: 500;
@@ -287,7 +287,7 @@
   margin-top: 5px;
 }
 
-.about__text-first {
+.about__intro {
   margin-right: 5px;
 }
 
@@ -296,19 +296,14 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   padding: 0 50px;
-  height: 180px;
-  justify-content: space-between;
 }
 
 .footer .address {
-  height: 98px;
   max-width: 265px;
 }
 
 .footer__menu {
   justify-self: center;
-  height: 64px;
-
 }
 
 .footer__menu-list {
@@ -336,7 +331,6 @@
   gap: 48px;
   list-style: none;
   justify-self: end;
-  height: 48px;
 }
 
 .footer__social-icon {

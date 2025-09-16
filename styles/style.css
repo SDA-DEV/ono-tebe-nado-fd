@@ -35,7 +35,7 @@
   text-underline-offset: 5px;
 }
 
-.header__link_active {
+.header__link.active {
   text-decoration: none;
 }
 
@@ -293,7 +293,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 0 50px;
+  padding: 0 50px 50px 50px;
 }
 
 .footer .address {
@@ -318,7 +318,7 @@
   white-space: nowrap;
 }
 
-.footer__menu-link_active {
+.footer__menu-link.active {
   text-decoration: none;
 }
 

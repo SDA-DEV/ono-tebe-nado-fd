@@ -293,7 +293,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 0 50px 50px 50px;
+  padding: 0 50px 82px 50px;
 }
 
 .footer .address {
